@@ -1,0 +1,12 @@
+.heading {
+  background-color: #eee;
+}
+.row .card {
+  border-radius: 1.5rem;
+}
+::placeholder {
+  color: #576574;
+}
+.check {
+  border: 0.5px solid #576574;
+}

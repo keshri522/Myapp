@@ -1,0 +1,108 @@
+@media only screen and (max-width: 767px) {
+  .col2 li {
+    font-size: 18px;
+    color: #050505;
+    line-height: 1.5;
+    display: block;
+    text-align: left;
+    line-height: 27px;
+    margin: 10px;
+    text-decoration: none;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .col3 li {
+    font-size: 18px;
+    color: #080808;
+    line-height: 1.5;
+    display: block;
+    text-align: left;
+    line-height: 27px;
+    margin-left: 10px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+  }
+
+  .colR {
+    width: 55%;
+    flex: 1;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .col2 li {
+    font-size: 18px;
+    color: #050505;
+    line-height: 1.5;
+    display: block;
+    text-align: left;
+    line-height: 27px;
+    margin-right: 100px;
+    text-decoration: none;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .col3 li {
+    font-size: 18px;
+    color: #080808;
+    line-height: 1.5;
+    display: block;
+    text-align: left;
+    line-height: 27px;
+    margin-left: 100px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+  }
+
+  .colR {
+    width: 55%;
+  }
+}
+
+.rowR {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* border: 1px solid #ccc; */
+  padding: 10px;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  /* width: 1349px; */
+  width: 100%;
+  margin: 60px 0 0 0;
+}
+.colR img {
+  height: auto;
+  width: 110%;
+  display: block;
+  z-index: 9;
+  border: 2px solid #333;
+}
+
+.colR h2 {
+  font-size: 44px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  line-height: 53px;
+  text-align: center;
+  color: #032674 !important;
+  line-height: 53px;
+  text-transform: uppercase;
+}
+
+.col2 {
+  flex: 1;
+  text-align: left;
+  height: auto;
+  padding: 50px;
+  background-color: lightblue;
+  margin-left: -40px;
+}
+
+.col3 {
+  flex: 1;
+  text-align: left;
+  height: auto;
+  padding: 50px;
+  background-color: lightblue;
+  margin-right: -40px;
+}

@@ -1,0 +1,145 @@
+#Live {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-live {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.class {
+  margin-top: 1px;
+}
+
+.texth {
+  padding-top: 30px;
+}
+
+.texth h2 {
+  font-size: 30px;
+  color: #023b6d;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.texth p {
+  font-size: 24px;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.containerC {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.img-com {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.col h2 {
+  font-family: "Times New Roman", Times, serif;
+  line-height: normal;
+  text-align: center;
+  color: #023b6d;
+}
+
+.col li {
+  font-family: "Times New Roman", Times, serif;
+  line-height: 2;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+.cadl-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.cadl {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #888888;
+  padding: 50px;
+}
+
+.cad-img-top {
+  max-width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.caRd-body {
+  text-align: left;
+}
+
+.caRd-body P {
+  color: black;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.caRd-body h5 {
+  font-size: 18px bold;
+  margin-top: 5px;
+  color: #020f85;
+}
+
+#Live4 {
+  background-color: #f2f2f2;
+  padding: 15px;
+  margin: 2%;
+}
+.cad-title {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #023b6d;
+}
+
+.containerL {
+  width: 80%; 
+  margin: auto; 
+}
+
+
+.row {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-bottom: 10px;
+}
+
+
+.col {
+  flex: 0 0 48%;
+  font-size: 1.3rem;
+  font-weight: 500;
+
+  padding: 10px;
+  box-sizing: border-box;
+}
+.col img {
+  width: 80px;
+  height: auto;
+  margin-right: 10px;
+}

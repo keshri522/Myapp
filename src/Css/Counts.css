@@ -1,0 +1,375 @@
+#slider {
+  padding: 1px;
+}
+@media only screen and (max-width: 767px) {
+  #Con {
+    padding: 2% 2%;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+
+  .job3 {
+    padding-left: 20px;
+    text-align: center;
+    color: #043e8f;
+    margin: 30px 0 30px 0;
+    text-align: left;
+  }
+
+  #myTable {
+    border-collapse: collapse;
+    width: 90%;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    margin-left: 20px;
+  }
+
+  #myInput {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 80%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-left: 25px;
+    margin-bottom: 12px;
+  }
+
+  .cardU {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1070px) {
+  #Con {
+    padding: 2% 2%;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+
+  .job3 {
+    padding-left: 20px;
+    text-align: center;
+    color: #043e8f;
+    margin: 30px 0 30px 0;
+    text-align: left;
+  }
+
+  #myTable {
+    border-collapse: collapse; /* Collapse borders */
+    width: 90%; /* Full-width */
+    border: 1px solid #ddd; /* Add a grey border */
+    font-size: 18px; /* Increase font-size */
+    margin-left: 20px;
+  }
+
+  #myInput {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 80%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-left: 25px;
+    margin-bottom: 12px;
+  }
+
+  .cardU {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media only screen and (min-width: 1070px) {
+  #Con {
+    padding: 50px 15% 50px 15%;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+
+  .job3 {
+    padding-left: 50px;
+    text-align: center;
+
+    color: #043e8f;
+    margin: 30px 0 30px 0;
+    text-align: left;
+  }
+
+  #myTable {
+    border-collapse: collapse;
+    width: 90%;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    margin-left: 50px;
+  }
+
+  #myInput {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 80%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-left: 50px;
+    margin-bottom: 12px;
+  }
+
+  /* Style for the cards */
+  .cardU {
+    height: 450px;
+    width: 303px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px 35px 20px 35px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* #slider {
+  margin-bottom: -15px;
+} */
+
+.carousel-item {
+  /* height: 80vh; */
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.job3 h2 {
+  font-size: 3rem;
+}
+
+.job2 {
+  display: flex;
+  align-items: center;
+}
+
+.job2 input[type="text"] {
+  width: 100%;
+  max-width: 1350px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+
+.job2 button {
+  margin-left: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 14px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: -16px;
+}
+
+.job2 button:hover {
+  background-color: #0056b3;
+}
+
+#myTable th,
+#myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header,
+#myTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Style for the card titles */
+.cardU-title {
+  font-size: 27px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: open sans sans-serif;
+  line-height: 36px;
+  text-align: none;
+  display: block;
+  color: #0156b1;
+}
+
+/* Style for the card text */
+.cardU-text {
+  font-size: 18px;
+  color: #333;
+  line-height: 27px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: none;
+  margin: 0 0 16px 0;
+  display: block;
+  text-align: justify;
+  padding: 25px 0 25px 0;
+}
+.cardU-body h6 a {
+  font-size: 16px;
+  /* font-weight: bold; */
+  color: #023469;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: 6px;
+  text-align: left;
+}
+.head h2 {
+  font-size: 44px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0160b9;
+  text-align: left;
+  letter-spacing: 2px;
+  line-height: 53px;
+  margin: 0 0 40px 0;
+}
+
+/* -----------------------counter----------------- */
+.counter {
+  color: #023469;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  height: 190px;
+  width: auto;
+  padding: 30px 25px 25px;
+  margin: 0 auto;
+  border: 3px solid #023469;
+  border-radius: 20px 20px;
+  position: relative;
+  z-index: 1;
+  margin-top: 30px;
+}
+.counter:before,
+.counter:after {
+  content: "";
+  background: #f3f3f3;
+  border-radius: 20px;
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  bottom: 15px;
+  right: 15px;
+  z-index: -1;
+}
+.counter:after {
+  background: transparent;
+  width: 100px;
+  height: 100px;
+  border: 15px solid #023469;
+  border-top: none;
+  border-right: none;
+  border-radius: 0 0 0 20px;
+  box-shadow: none;
+  top: auto;
+  left: -10px;
+  bottom: -10px;
+  right: auto;
+}
+.counter .counter-icon {
+  font-size: 35px;
+  line-height: 35px;
+  margin: 0 0 15px;
+  transition: all 0.3s ease 0s;
+}
+.counter:hover .counter-icon {
+  transform: rotateY(360deg);
+}
+.counter .counter-value {
+  color: #555;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0 0 20px;
+  display: block;
+  transition: all 0.3s ease 0s;
+}
+.counter:hover .counter-value {
+  text-shadow: 2px 2px 0 #d1d8e0;
+}
+.counter h3 {
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 15px;
+}
+.counter.blue {
+  color: #4accdb;
+  border-color: #4accdb;
+}
+.counter.blue:after {
+  border-bottom-color: #4accdb;
+  border-left-color: #4accdb;
+}
+@media screen and (max-width: 990px) {
+  .counter {
+    margin-bottom: 40px;
+  }
+}
+
+/* testmonials */
+
+.testheader h2 {
+  padding-left: 50px;
+  text-align: center;
+  font-size: 3rem;
+  color: #043e8f;
+  margin: 30px 0 30px 0;
+  text-align: left;
+}
+
+.carousel-caption.d-none.d-md-block {
+  color: #007bff(6, 5, 7);
+  text-align: left;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+}
+
+
+
+.carousel-caption.d-none.d-md-block p {
+  font-size: 2rem;
+}

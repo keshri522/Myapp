@@ -1,0 +1,58 @@
+.testing {
+    position: relative;
+    margin-top: 1px;
+  }
+  
+
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    /* left: 50%; */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #000000; 
+  }
+  
+  /* Style for the carousel caption heading */
+  .carousel-caption h5 {
+    font-size: 2rem;
+    /* margin-bottom: 20px;  */
+    color: #000000; 
+  }
+  
+  /* Style for the Explore button */
+  .carousel-caption .btn-primary {
+    
+    color: #000000; /* Set the text color */
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .carousel-caption .btn-primary:hover {
+    background-color: #0056b3; /* Set the background color on hover */
+  }
+  
+ 
+  
+
+  
+  /* Optional: Style the visually hidden text for screen readers */
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+  /* .carousel-caption.d-none.d-md-block h5 {
+    font-size: 1.1rem;
+    font-weight: bold;
+
+    font-family: "Courier New", Courier, monospace;
+  }  */

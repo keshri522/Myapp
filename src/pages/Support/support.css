@@ -1,0 +1,191 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  border: none;
+  border-bottom: 2px solid rgb(128, 126, 126);
+  background: transparent;
+  outline: none;
+  width: 100%;
+  text-transform: capitalize;
+  padding: 1rem 0.4rem;
+}
+.aside {
+  background-image: linear-gradient(
+    to left bottom,
+    #051937,
+    #002350,
+    #002d69,
+    #003684,
+    #01409f
+  );
+  animation: animateClr 5s infinite cubic-bezier(0.62, 0.28, 0.23, 0.99);
+  background-size: 200%;
+}
+
+@keyframes animateClr {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.scontainer {
+  padding: 20px;
+}
+
+.bg-light {
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.btn-outline-dark {
+  margin-top: 15px;
+}
+/* Define a CSS class for the card container */
+.cards {
+  background-color: #002d69 !important;
+  border: 1px solid #0b0505;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  width: 300px; /* Adjust the width as needed */
+  color: #fff;
+}
+
+.cards-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.cards-subtitle {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.cards-text {
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+.cards-link {
+  text-decoration: none;
+  color: #007bff;
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.cards-link:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+/* Style for the container */
+.scontainer {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Style for the inner container with a light background */
+.bg-light {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the columns within the inner container */
+
+/* Style for the "cardT" elements */
+.cardT {
+  display: flex;
+  align-items: center; /* vertical alignment */
+  justify-content: center; /* horizontal alignment */
+  background-color: #002350;
+  /* padding: 50px; */
+  height: 137px;
+  width: 211px;
+
+  /* height:242%;
+  width:91%; */
+  margin: 10px;
+  border-radius: 5px;
+}
+
+/* Style for the "cardT-title" elements */
+.cardT-title {
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+}
+
+/* Style for the form inputs and selects */
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+  background-color: #002350;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for the contact information section */
+.aside {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Style for the contact information icons */
+.fa-solid,
+.fa-regular {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+/* Style for the "ul" and "li" elements */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Style for the "h6" element within the contact information */
+h6 {
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Add any additional styles as needed for your specific design */
